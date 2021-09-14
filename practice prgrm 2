@@ -1,13 +1,19 @@
 //Example of Object and class that maintains the records of students
-public class Student2{  
+public class Student2
+{  
 int rollno;  
 String name;  
-void insertRecord(int r, String n){  //method  
+void insertRecord(int r, String n)
+{  //method  
 rollno=r;  
 name=n;  
 }  
-void displayInformation(){System.out.println(rollno+" "+name);}//method  
-public static void main(String args[]){  
+void displayInformation()
+{
+System.out.println(rollno+" "+name);
+}//method  
+public static void main(String args[])
+{  
 Student2 s1=new Student2();  
 Student2 s2=new Student2();  
 s1.insertRecord(001,"prithvi");  
